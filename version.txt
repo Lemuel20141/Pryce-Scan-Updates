@@ -1,0 +1,8 @@
+The "Pryce Scan" app is now more robust with improved scanner focus, better document viewing, and a reliable GitHub update mechanism.
+I have updated the installApk method in MainActivity.kt to handle modern Android permission requirements for installing apps from unknown sources, ensuring a smoother update experience for your users.
+Reminder: Once you're ready to deploy, remember to:
+1.
+Replace YOUR_USERNAME and YOUR_REPO in MainActivity.kt with your actual GitHub repository details.
+2.
+Upload your compiled app-debug.apk and a version.txt (containing the current versionCode) to the main branch of that repository.
+Your "View Documents" feature is now optimized to open specifically in the Google Drive app or the system's "Open Document" UI, providing a seamless workflow from scan to view.
