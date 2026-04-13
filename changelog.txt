@@ -1,0 +1,4 @@
+- Added BIR 2307 & Check Voucher logic
+- Implemented automated naming confirmation
+- Faster Ashlee voice response
+- New download progress bar
