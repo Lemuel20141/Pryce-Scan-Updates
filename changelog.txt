@@ -1,4 +1,8 @@
-- Added BIR 2307 & Check Voucher logic
-- Implemented automated naming confirmation
-- Faster Ashlee voice response
-- New download progress bar
+### Fixed
+- Resolved build failure `:app:kaptDebugKotlin` caused by Kotlin 2.1 metadata incompatibility.
+
+### Changed
+- Migrated annotation processing from Kapt to KSP (Kotlin Symbol Processing) for improved build performance and Kotlin 2.1 support.
+- Updated Room Database to 2.7.0-alpha11.
+- Updated Glide compiler to use KSP.
+- Configured Java 17 toolchain and verified compatibility with AGP 9.1.0.
