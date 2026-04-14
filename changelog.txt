@@ -1,18 +1,19 @@
-Pryce Scan v3.21 (51) - Changelog
+Pryce Scan v3.22 (52) - Changelog
 
-[Voice AI - Ashlee Improvements]
-• Improved Response Logic: Ashlee now automatically resumes listening after she finishes speaking.
-• Fixed "Stuck" Voice: Resolved an issue where Ashlee would stop responding after the first command.
-• Enhanced Feedback: Added verbal confirmation when starting the scanner.
-• Better Error Recovery: Implemented auto-restart for the voice recognizer on silence or minor network glitches.
+[New Voice AI Features]
+• Interactive Naming: You can now name your documents using your voice! Just say the name when prompted after a scan.
+• Voice Command Shortcuts: 
+    - Say "Yes", "Save", or "Itago" to save your document.
+    - Say "PDF" or "JPEG" to switch formats instantly via voice.
+• Advanced Conversion Commands: Directly trigger conversions like "Word to PDF" or "PDF to JPEG" using voice commands while the converter is open.
+• Navigation: Added "Open View Saved Documents" and "Open Merge Multiple PDFs" voice triggers.
 
-[Update System]
-• New Update Engine: Implemented a robust update checker using OkHttp.
-• Dynamic Changelog: The app can now pull and display update notes directly from GitHub.
-• Direct Downloads: Added the ability to download the latest APK directly within the app.
+[Ashlee AI Improvements]
+• Auto-Resume: Ashlee now automatically starts listening again after she finishes responding to you.
+• Smarter Context: Ashlee now understands where you are (e.g., in a naming dialog or converter) and adjusts her hearing to match.
+• Language Support: Improved Tagalog recognition for all major commands.
 
-[Core Fixes & Performance]
-• Kotlin 2.1.0 Compatibility: Fixed type inference issues in file streaming blocks.
-• PDF Engine Optimization: Resolved naming conflicts between PDFBox and Android's native PDF renderer.
-• Database Stability: Fixed Room database reference errors to ensure scans are saved correctly.
-• UI Polish: Updated the version display in the bottom corner for better visibility.
+[System & Stability]
+• Enhanced Update Engine: Optimized the check-for-updates logic to be faster and more reliable.
+• UI Polish: Updated the version branding and layout stability in the main dashboard.
+• Bug Fixes: Resolved an issue where the voice recognizer would stay "busy" and stop responding to commands.
