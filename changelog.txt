@@ -1,19 +1,24 @@
-Pryce Scan v3.22 (52) - Changelog
+Pryce Scan v3.23 (53) - Changelog
 
-[New Voice AI Features]
-• Interactive Naming: You can now name your documents using your voice! Just say the name when prompted after a scan.
-• Voice Command Shortcuts: 
-    - Say "Yes", "Save", or "Itago" to save your document.
-    - Say "PDF" or "JPEG" to switch formats instantly via voice.
-• Advanced Conversion Commands: Directly trigger conversions like "Word to PDF" or "PDF to JPEG" using voice commands while the converter is open.
-• Navigation: Added "Open View Saved Documents" and "Open Merge Multiple PDFs" voice triggers.
+[New Update System]
+• Live Progress Tracking: Added a real-time progress bar when downloading updates so you know exactly how much is left.
+• Auto-Install: The app now automatically opens the installer as soon as the update download finishes.
 
-[Ashlee AI Improvements]
-• Auto-Resume: Ashlee now automatically starts listening again after she finishes responding to you.
-• Smarter Context: Ashlee now understands where you are (e.g., in a naming dialog or converter) and adjusts her hearing to match.
-• Language Support: Improved Tagalog recognition for all major commands.
+[File Converter Voice Support]
+• Direct Conversion Commands: While the converter dialog is open, you can now say:
+    - "JPG to PDF" or "Larawan sa PDF"
+    - "PDF to JPEG" or "PDF sa Larawan"
+    - "Word to PDF" or "Dokumento sa PDF"
+    - "PDF to Word" or "PDF sa Dokumento"
+• Ashlee will confirm the selection and immediately open the correct file picker.
+
+[Ashlee AI UI/UX Enhancements]
+• Floating Action Button: Added the "Ask Ashlee" button (FAB) for quick access to voice commands.
+• Smart Visibility: The Ashlee button now automatically hides when Voice AI is disabled and reappears when enabled.
+• Status Icons: The AI control button now shows a microphone icon when active and a "silent" icon when off.
+• Auto-Resume: Ashlee now intelligently restarts listening mode after she finishes speaking her response.
 
 [System & Stability]
-• Enhanced Update Engine: Optimized the check-for-updates logic to be faster and more reliable.
-• UI Polish: Updated the version branding and layout stability in the main dashboard.
-• Bug Fixes: Resolved an issue where the voice recognizer would stay "busy" and stop responding to commands.
+• Fixed a bug where the voice recognizer would stay "busy" and fail to trigger after the first command.
+• Improved memory management during heavy PDF merging and conversion processes.
+• Resolved build synchronization issues between the Voice AI engine and the main UI.
