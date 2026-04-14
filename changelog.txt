@@ -1,24 +1,23 @@
-Pryce Scan v3.23 (53) - Changelog
+Pryce Scan v3.25 (55) - Changelog
 
-[New Update System]
-• Live Progress Tracking: Added a real-time progress bar when downloading updates so you know exactly how much is left.
-• Auto-Install: The app now automatically opens the installer as soon as the update download finishes.
+[Voice AI - Ashlee Enhancements]
+• Multi-Step Naming: Ashlee now guides you through a smarter workflow:
+    1. Ask for Document Name.
+    2. Ask for Format (PDF or JPEG).
+    3. Ask for Action (Save, Share, or Cancel).
+• Fixed "Echo" Bug: Prevented Ashlee from hearing herself and repeating the "Starting Scanner" command.
+• Improved Listening: Added a "Heard" visual toast and fixed logic to ensure she waits for your specific choice before proceeding.
+• Permission Recovery: Added a manual permission check and requester for the microphone to ensure she never stops listening due to system blocks.
 
-[File Converter Voice Support]
-• Direct Conversion Commands: While the converter dialog is open, you can now say:
-    - "JPG to PDF" or "Larawan sa PDF"
-    - "PDF to JPEG" or "PDF sa Larawan"
-    - "Word to PDF" or "Dokumento sa PDF"
-    - "PDF to Word" or "PDF sa Dokumento"
-• Ashlee will confirm the selection and immediately open the correct file picker.
+[Smart Naming Dialog]
+• Integrated Sharing: Added a "Share" button directly in the naming dialog for instant document distribution.
+• Smart View: The "View Saved Documents" button now intelligently opens your selected Local folder in the File Manager or your Google Drive folder in the Drive app.
 
-[Ashlee AI UI/UX Enhancements]
-• Floating Action Button: Added the "Ask Ashlee" button (FAB) for quick access to voice commands.
-• Smart Visibility: The Ashlee button now automatically hides when Voice AI is disabled and reappears when enabled.
-• Status Icons: The AI control button now shows a microphone icon when active and a "silent" icon when off.
-• Auto-Resume: Ashlee now intelligently restarts listening mode after she finishes speaking her response.
+[Seamless Updates]
+• One-Tap Install: Renamed "Download" to "Update Now" for better clarity.
+• Auto-Installer: The app now automatically launches the installer once the download hits 100%.
+• Permission Guide: Added a smart shortcut to Android Settings if "Install Unknown Apps" is required.
 
-[System & Stability]
-• Fixed a bug where the voice recognizer would stay "busy" and fail to trigger after the first command.
-• Improved memory management during heavy PDF merging and conversion processes.
-• Resolved build synchronization issues between the Voice AI engine and the main UI.
+[Stability]
+• Fixed lifecycle crashes related to the speech engine when rotating or leaving the app.
+• Optimized memory usage during high-resolution JPEG to PDF conversions.
