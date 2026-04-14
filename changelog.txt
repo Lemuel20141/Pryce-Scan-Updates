@@ -1,7 +1,18 @@
-New AI Features (Internal/Recent)
-•
-Meeting Minutes AI: Added voice commands ("start/stop meeting") to generate summarized minutes using Gemini.
-•
-Voice Indicator: Added a "REC" status in red on the Voice AI button when recording is active.
-•
-Refactored Ashlee AI: Consolidated API key management and fixed logic errors that caused the "192 errors" build failure.
+Pryce Scan v3.21 (51) - Changelog
+
+[Voice AI - Ashlee Improvements]
+• Improved Response Logic: Ashlee now automatically resumes listening after she finishes speaking.
+• Fixed "Stuck" Voice: Resolved an issue where Ashlee would stop responding after the first command.
+• Enhanced Feedback: Added verbal confirmation when starting the scanner.
+• Better Error Recovery: Implemented auto-restart for the voice recognizer on silence or minor network glitches.
+
+[Update System]
+• New Update Engine: Implemented a robust update checker using OkHttp.
+• Dynamic Changelog: The app can now pull and display update notes directly from GitHub.
+• Direct Downloads: Added the ability to download the latest APK directly within the app.
+
+[Core Fixes & Performance]
+• Kotlin 2.1.0 Compatibility: Fixed type inference issues in file streaming blocks.
+• PDF Engine Optimization: Resolved naming conflicts between PDFBox and Android's native PDF renderer.
+• Database Stability: Fixed Room database reference errors to ensure scans are saved correctly.
+• UI Polish: Updated the version display in the bottom corner for better visibility.
