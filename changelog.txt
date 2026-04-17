@@ -1,23 +1,17 @@
-Pryce Scan v3.25 (55) - Changelog
-
-[Voice AI - Ashlee Enhancements]
-• Multi-Step Naming: Ashlee now guides you through a smarter workflow:
-    1. Ask for Document Name.
-    2. Ask for Format (PDF or JPEG).
-    3. Ask for Action (Save, Share, or Cancel).
-• Fixed "Echo" Bug: Prevented Ashlee from hearing herself and repeating the "Starting Scanner" command.
-• Improved Listening: Added a "Heard" visual toast and fixed logic to ensure she waits for your specific choice before proceeding.
-• Permission Recovery: Added a manual permission check and requester for the microphone to ensure she never stops listening due to system blocks.
-
-[Smart Naming Dialog]
-• Integrated Sharing: Added a "Share" button directly in the naming dialog for instant document distribution.
-• Smart View: The "View Saved Documents" button now intelligently opens your selected Local folder in the File Manager or your Google Drive folder in the Drive app.
-
-[Seamless Updates]
-• One-Tap Install: Renamed "Download" to "Update Now" for better clarity.
-• Auto-Installer: The app now automatically launches the installer once the download hits 100%.
-• Permission Guide: Added a smart shortcut to Android Settings if "Install Unknown Apps" is required.
-
-[Stability]
-• Fixed lifecycle crashes related to the speech engine when rotating or leaving the app.
-• Optimized memory usage during high-resolution JPEG to PDF conversions.
+Version 3.30
+- New Feature: Added Word (.docx) to PDF conversion support.
+- Voice AI (Ashlee) Enhancements:
+    * Added "Universal Cancel" command ("Cancel", "Ihinto", "Stop") to reset any active process.
+    * Integrated voice-guided password protection confirmation for PDF saves.
+    * Improved state machine stability to prevent "echo loops" and accidental triggers.
+    * Added personalized identity greetings upon successful biometric/code unlock.
+- Smart Auto-Naming: 
+    * Refined BIR 2307 recognition to better handle OCR line-merging for Payor names and TINs.
+    * Improved Check Voucher extraction logic.
+- Document Processing:
+    * Enhanced PDF to JPG conversion to process and save all document pages individually.
+    * Implemented 128-bit PDF encryption support during the save/upload flow.
+- Cloud & Sharing:
+    * Fully implemented Google Drive REST API integration for seamless cloud backups.
+    * Added native sharing support for both single-page and multi-page document results.
+- Stability: Optimized TTS initialization and microphone focus handling.
