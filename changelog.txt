@@ -1,17 +1,11 @@
-Version 3.30
-- New Feature: Added Word (.docx) to PDF conversion support.
-- Voice AI (Ashlee) Enhancements:
-    * Added "Universal Cancel" command ("Cancel", "Ihinto", "Stop") to reset any active process.
-    * Integrated voice-guided password protection confirmation for PDF saves.
-    * Improved state machine stability to prevent "echo loops" and accidental triggers.
-    * Added personalized identity greetings upon successful biometric/code unlock.
-- Smart Auto-Naming: 
-    * Refined BIR 2307 recognition to better handle OCR line-merging for Payor names and TINs.
-    * Improved Check Voucher extraction logic.
-- Document Processing:
-    * Enhanced PDF to JPG conversion to process and save all document pages individually.
-    * Implemented 128-bit PDF encryption support during the save/upload flow.
-- Cloud & Sharing:
-    * Fully implemented Google Drive REST API integration for seamless cloud backups.
-    * Added native sharing support for both single-page and multi-page document results.
-- Stability: Optimized TTS initialization and microphone focus handling.
+Summary of Changes in v3.31 (61):
+•
+Signature-to-PDF Workflow: Fixed the bug where signed documents were defaulting to JPEG. They are now correctly converted to PDF with proper A4 scaling and encryption if selected.
+•
+Metadata Preservation: Ensured document names and user actions (Save vs. Share) are correctly passed through the signature editor.
+•
+Gemini AI Integration: Documented the new capability for Ashlee to summarize and answer questions using Gemini.
+•
+Flow Optimization: Noted the removal of redundant preview steps for a faster scanning experience.
+•
+Naming Robustness: Improved logic for "CVEVO" and BIR 2307 forms.
