@@ -1,11 +1,13 @@
-Summary of Changes in v3.31 (61):
+Summary of Updates:
 •
-Signature-to-PDF Workflow: Fixed the bug where signed documents were defaulting to JPEG. They are now correctly converted to PDF with proper A4 scaling and encryption if selected.
+Room-Powered Deep Search: Migrated indexing to a Room database for faster performance.
 •
-Metadata Preservation: Ensured document names and user actions (Save vs. Share) are correctly passed through the signature editor.
+Enhanced Security Fallback: Added PIN/Pattern support alongside biometrics.
 •
-Gemini AI Integration: Documented the new capability for Ashlee to summarize and answer questions using Gemini.
+Precision PDF Signing: Signatures are now perfectly centered on A4 pages.
 •
-Flow Optimization: Noted the removal of redundant preview steps for a faster scanning experience.
+Hybrid Voice Naming: Users can now manually edit names before confirming with "Done" via voice.
 •
-Naming Robustness: Improved logic for "CVEVO" and BIR 2307 forms.
+Build Stability: Fixed the play-services-tasks dependency conflict.
+•
+Update Progress: Added a progress bar for real-time update feedback.
