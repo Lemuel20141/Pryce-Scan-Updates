@@ -1,13 +1,17 @@
-Summary of Updates:
-•
-Room-Powered Deep Search: Migrated indexing to a Room database for faster performance.
-•
-Enhanced Security Fallback: Added PIN/Pattern support alongside biometrics.
-•
-Precision PDF Signing: Signatures are now perfectly centered on A4 pages.
-•
-Hybrid Voice Naming: Users can now manually edit names before confirming with "Done" via voice.
-•
-Build Stability: Fixed the play-services-tasks dependency conflict.
-•
-Update Progress: Added a progress bar for real-time update feedback.
+Version 3.39 (Build 69)
+----------------------
+[New Features]
+- Meeting Mode: Voice-activated meeting recording (Say "Meeting", "Record", or "Pulong").
+- AI Meeting Minutes: Automatic professional summary generation using Gemini 1.5 Flash.
+- Trilingual Support: Ashlee now understands English, Tagalog, and Bisaya (Cebuano) simultaneously.
+- Offline Mode: Automatically saves raw meeting transcripts as .txt files when Wi-Fi is unavailable, ensuring no data loss.
+- Document Auto-Correction: Enabled perspective correction and auto-cropping in the scanner for perfectly aligned, professional results.
+
+[Improvements]
+- Long-Meeting Reliability: Patched voice recognition to automatically recover from timeouts and "busy" errors during sessions up to 8 hours.
+- Refined Naming Dialog: Removed auto-prompting for a quieter manual entry experience; voice feedback now only triggers on action buttons (Save/Share/Cancel).
+- Search Indexing: Meeting minutes are now automatically indexed into the internal database for instant searchability.
+
+[Fixes]
+- Fixed duplicate context import conflicts.
+- Optimized TTS feedback loop guards to prevent Ashlee from hearing herself.
