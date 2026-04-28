@@ -11,7 +11,7 @@
 <update>
     <!-- Version number in format: Major.Minor.Build.Revision -->
     <!-- This should match the tag version in GitHub releases -->
-    <version>3.4.0.1</version>
+    <version>3.5.0.0</version>
 
     <!-- Direct download URL from GitHub releases -->
     <!-- Format: https://github.com/Lemuel20141/Pryce-Scan-Updates/releases/download/v{version}/Export.Salesbook.exe -->
