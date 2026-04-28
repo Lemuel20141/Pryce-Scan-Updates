@@ -11,14 +11,14 @@
 <update>
     <!-- Version number in format: Major.Minor.Build.Revision -->
     <!-- This should match the tag version in GitHub releases -->
-    <version>3.6.0.0</version>
+    <version>3.5.0.0</version>
 
     <!-- Direct download URL from GitHub releases -->
     <!-- Format: https://github.com/Lemuel20141/Pryce-Scan-Updates/releases/download/v{version}/Export.Salesbook.exe -->
     <downloadUrl>https://github.com/Lemuel20141/Pryce-Scan-Updates/releases/download/v3.4/Export.Salesbook.exe</downloadUrl>
 
     <!-- Release notes - what's new in this version -->
-    <releaseNotes><![CDATA[Version 3.6.0.0 Release Notes:
+    <releaseNotes><![CDATA[Version 3.5.0.0 Release Notes:
 
 ✨ New Features:
 - Added automatic update checker
