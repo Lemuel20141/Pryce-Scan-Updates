@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    UPDATE INFORMATION FILE FOR GITHUB RELEASES
+
+    This file should be hosted in your GitHub repository: Lemuel20141/Pryce-Scan-Updates
+    Location: https://raw.githubusercontent.com/Lemuel20141/Pryce-Scan-Updates/main/updateinfo.xml
+
+    Update this file when you release a new version of the application.
+    Commit and push to the 'main' branch.
+-->
+<update>
+    <!-- Version number in format: Major.Minor.Build.Revision -->
+    <!-- This should match the tag version in GitHub releases -->
+    <version>3.4.0.0</version>
+
+    <!-- Direct download URL from GitHub releases -->
+    <!-- Format: https://github.com/Lemuel20141/Pryce-Scan-Updates/releases/download/v{version}/Export.Salesbook.exe -->
+    <downloadUrl>https://github.com/Lemuel20141/Pryce-Scan-Updates/releases/download/v3.4/Export.Salesbook.exe</downloadUrl>
+
+    <!-- Release notes - what's new in this version -->
+    <releaseNotes><![CDATA[Version 3.4.0.0 Release Notes:
+
+✨ New Features:
+- Added automatic update checker
+- Added "Check for Updates" button on main form
+- Improved DBF file scanning performance
+
+🐛 Bug Fixes:
+- Fixed issue with sales center detection
+- Resolved memory leak in DBF repair utility
+- Fixed incorrect date formatting in exports
+
+🔧 Improvements:
+- Enhanced error messages
+- Better handling of locked DBF files
+- Improved UI responsiveness
+
+Please update to ensure you have the latest features and bug fixes.]]></releaseNotes>
+
+    <!-- Set to true if this update is mandatory (recommended for critical bug fixes) -->
+    <isMandatory>false</isMandatory>
+</update>
