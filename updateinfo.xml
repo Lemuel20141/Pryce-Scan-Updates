@@ -11,31 +11,47 @@
 <update>
     <!-- Version number in format: Major.Minor.Build.Revision -->
     <!-- This should match the tag version in GitHub releases -->
-    <version>3.5.0.2</version>
+    <version>3.5.0.3</version>
 
     <!-- Direct download URL from GitHub releases -->
     <!-- Format: https://github.com/Lemuel20141/Pryce-Scan-Updates/releases/download/v{version}/Export.Salesbook.exe -->
-    <downloadUrl>https://github.com/Lemuel20141/Pryce-Scan-Updates/releases/download/v3.4/Export.Salesbook.exe</downloadUrl>
+    <downloadUrl>https://github.com/Lemuel20141/Pryce-Scan-Updates/releases/download/v3.5/Export.Salesbook.exe</downloadUrl>
 
     <!-- Release notes - what's new in this version -->
-    <releaseNotes><![CDATA[Version 3.4.0.0 Release Notes:
+    <releaseNotes><![CDATA[Version 3.5.0.3 Release Notes:
 
 ✨ New Features:
-- Added automatic update checker
-- Added "Check for Updates" button on main form
-- Improved DBF file scanning performance
+- Added DBF Duplicate File Scanner and Remover
+  • Scans all .dbf files and identifies duplicates based on content hash (SHA256)
+  • Safely deletes duplicate files without creating backups
+  • Shows detailed before/after report of duplicate deletion
+  • Excludes .bak files from scanning
+- Added 12 new sales centers/plants to the system
+  • CALBIGA SALES CENTER
+  • PARANAS SALES CENTER
+  • CATBALOGAN SALES CENTER
+  • CALBAYOG SALES CENTER
+  • SAN ISIDRO NS SALES CENTER
+  • ALLEN SALES CENTER
+  • MONDRAGON SALES CENTER
+  • LAOANG SALES CENTER
+  • LAS NAVAS SALES CENTER
+  • ARTECHE SALES CENTER
+  • BALANGIGA SALES CENTER
+  • STA RITA SALES CENTER
+- Removed CCS extraction feature (temporarily - to be added back later)
 
 🐛 Bug Fixes:
-- Fixed issue with sales center detection
-- Resolved memory leak in DBF repair utility
-- Fixed incorrect date formatting in exports
+- Fixed DBF duplicate file handling
+- Improved file scanning performance
 
 🔧 Improvements:
-- Enhanced error messages
-- Better handling of locked DBF files
-- Improved UI responsiveness
+- Enhanced duplicate detection using SHA256 hashing
+- Better error handling for file operations
+- Improved UI responsiveness during file scans
+- More detailed reporting for duplicate removal operations
 
-Please update to ensure you have the latest features and bug fixes.]]></releaseNotes>
+Please update to access the new DBF duplicate file removal feature and expanded sales center support.]]></releaseNotes>
 
     <!-- Set to true if this update is mandatory (recommended for critical bug fixes) -->
     <isMandatory>false</isMandatory>
