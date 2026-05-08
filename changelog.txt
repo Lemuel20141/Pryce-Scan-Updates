@@ -1,17 +1,15 @@
-Version 3.39 (Build 69)
+Version 3.43 (Build 73)
 ----------------------
-[New Features]
-- Meeting Mode: Voice-activated meeting recording (Say "Meeting", "Record", or "Pulong").
-- AI Meeting Minutes: Automatic professional summary generation using Gemini 1.5 Flash.
-- Trilingual Support: Ashlee now understands English, Tagalog, and Bisaya (Cebuano) simultaneously.
-- Offline Mode: Automatically saves raw meeting transcripts as .txt files when Wi-Fi is unavailable, ensuring no data loss.
-- Document Auto-Correction: Enabled perspective correction and auto-cropping in the scanner for perfectly aligned, professional results.
-
-[Improvements]
-- Long-Meeting Reliability: Patched voice recognition to automatically recover from timeouts and "busy" errors during sessions up to 8 hours.
-- Refined Naming Dialog: Removed auto-prompting for a quieter manual entry experience; voice feedback now only triggers on action buttons (Save/Share/Cancel).
-- Search Indexing: Meeting minutes are now automatically indexed into the internal database for instant searchability.
-
-[Fixes]
-- Fixed duplicate context import conflicts.
-- Optimized TTS feedback loop guards to prevent Ashlee from hearing herself.
+Summary of Updates:
+•
+Tactiq-Style Meeting Minutes: Upgraded Meeting Mode with real-time timestamps in the live transcript and a professional English summary structure (including Overview, Key Topics, Action Items, and Decisions).
+•
+Multi-Language Intelligence: Enhanced Ashlee's ability to concurrently process and translate English, Tagalog, and Bisaya/Cebuano during meetings.
+•
+Smart Naming Validation: Locked the naming dialog to prevent accidental dismissal and added mandatory name validation for "Save" and "Share" actions to ensure documents are never saved or shared without a title.
+•
+Connection-Aware Meetings: Implemented proactive internet connectivity checks to ensure AI transcription and summarization services are available before starting a meeting.
+•
+Voice AI Resilience: Fixed several edge-case errors in speech recognition and Text-To-Speech (TTS) to ensure continuous listening and reliable responses.
+•
+Code Modernization: Optimized MainActivity by resolving over 20+ warnings, updating deprecated API calls, and cleaning up unused resources for improved stability.
