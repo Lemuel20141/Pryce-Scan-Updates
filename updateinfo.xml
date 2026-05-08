@@ -11,47 +11,41 @@
 <update>
     <!-- Version number in format: Major.Minor.Build.Revision -->
     <!-- This should match the tag version in GitHub releases -->
-    <version>3.5.0.3</version>
+    <version>3.5.0.4</version>
 
     <!-- Direct download URL from GitHub releases -->
     <!-- Format: https://github.com/Lemuel20141/Pryce-Scan-Updates/releases/download/v{version}/Export.Salesbook.exe -->
-    <downloadUrl>https://github.com/Lemuel20141/Pryce-Scan-Updates/releases/download/v3.5/Export.Salesbook.exe</downloadUrl>
+    <downloadUrl>https://github.com/Lemuel20141/Pryce-Scan-Updates/releases/download/v3.4/Export.Salesbook.exe</downloadUrl>
 
     <!-- Release notes - what's new in this version -->
-    <releaseNotes><![CDATA[Version 3.5.0.3 Release Notes:
+    <releaseNotes><![CDATA[Version 3.5.0.4 Release Notes:
 
 ✨ New Features:
-- Added DBF Duplicate File Scanner and Remover
-  • Scans all .dbf files and identifies duplicates based on content hash (SHA256)
-  • Safely deletes duplicate files without creating backups
-  • Shows detailed before/after report of duplicate deletion
-  • Excludes .bak files from scanning
-- Added 12 new sales centers/plants to the system
-  • CALBIGA SALES CENTER
-  • PARANAS SALES CENTER
-  • CATBALOGAN SALES CENTER
-  • CALBAYOG SALES CENTER
-  • SAN ISIDRO NS SALES CENTER
-  • ALLEN SALES CENTER
-  • MONDRAGON SALES CENTER
-  • LAOANG SALES CENTER
-  • LAS NAVAS SALES CENTER
-  • ARTECHE SALES CENTER
-  • BALANGIGA SALES CENTER
-  • STA RITA SALES CENTER
-- Removed CCS extraction feature (temporarily - to be added back later)
+- Added BORONGAN SALES CENTER and GUIUAN SALES CENTER to all export modules
+- Expanded sales center support across CCS, DSRR, and main forms
 
 🐛 Bug Fixes:
-- Fixed DBF duplicate file handling
-- Improved file scanning performance
+- Fixed auto-detection for newly added sales centers (BORONGAN & GUIUAN)
+- Corrected folder name mapping to properly detect sales centers from folder paths
 
 🔧 Improvements:
-- Enhanced duplicate detection using SHA256 hashing
-- Better error handling for file operations
-- Improved UI responsiveness during file scans
-- More detailed reporting for duplicate removal operations
+- Enhanced CCSExporter with robust error handling and exception management
+- Improved filename sanitization using GUID-based unique naming to prevent file conflicts
+- Implemented STA thread validation for Excel COM interop
+- Added thread-safe progress reporting with SynchronizationContext marshaling
+- Robustified COM object cleanup with proper reference counting
+- Better validation of input parameters in CCSExporter constructor
+- Explicit database provider fallback (ACE OLEDB to VFP OLEDB) with clear error messaging
+- Graceful handling of Excel file format specification (xlsx) and border operations
 
-Please update to access the new DBF duplicate file removal feature and expanded sales center support.]]></releaseNotes>
+🔐 Code Quality:
+- Replaced silent exception swallowing with explicit, meaningful exception handling
+- Added comprehensive validation for product type (LPG vs GASES)
+- Improved desktop path validation with permission error detection
+- Enhanced AutoFit and column width operations with error recovery
+- Better debugging support with detailed exception context
+
+Please update to access the new sales centers and benefit from improved robustness and error handling.]]></releaseNotes>
 
     <!-- Set to true if this update is mandatory (recommended for critical bug fixes) -->
     <isMandatory>false</isMandatory>
