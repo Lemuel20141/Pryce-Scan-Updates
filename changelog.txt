@@ -1,15 +1,17 @@
-Version 3.44 (Build 74)
-----------------------
-Summary of Updates:
+v3.50 (77) Highlights:
 •
-Tactiq-Style Meeting Minutes: Upgraded Meeting Mode with real-time timestamps in the live transcript and a professional English summary structure (including Overview, Key Topics, Action Items, and Decisions).
+🚀 Elite Zoom Controls: Added hardware-aware lens selection for 0.5x (Big Scan) and 0.8x (Wide Scan) on supported devices for capturing large posters or blueprints.
 •
-Multi-Language Intelligence: Enhanced Ashlee's ability to concurrently process and translate English, Tagalog, and Bisaya/Cebuano during meetings.
+🎙️ AI Read Aloud: Enabled Ashlee to dictate document text in English or Tagalog using high-quality voice synthesis.
 •
-Smart Naming Validation: Locked the naming dialog to prevent accidental dismissal and added mandatory name validation for "Save" and "Share" actions to ensure documents are never saved or shared without a title.
+📂 Smart Auto-Categorization: Integrated AI to automatically detect document types (Receipt, ID, Contract, etc.) and suggest categorized filenames for better organization.
 •
-Connection-Aware Meetings: Implemented proactive internet connectivity checks to ensure AI transcription and summarization services are available before starting a meeting.
+✍️ Saved Signatures: Implemented signature storage, allowing you to reuse your drawing for faster and more efficient document signing.
 •
-Voice AI Resilience: Fixed several edge-case errors in speech recognition and Text-To-Speech (TTS) to ensure continuous listening and reliable responses.
+👥 Live User Counter: Added a real-time installation counter in the top-right corner that fetches live data with anti-caching logic.
 •
-Code Modernization: Optimized MainActivity by resolving over 20+ warnings, updating deprecated API calls, and cleaning up unused resources for improved stability.
+📉 Premium PDF Compression: Added a "Small File Size" mode to significantly reduce PDF storage space while maintaining high text clarity.
+•
+🔗 Advanced Link Detection: Upgraded the QR Scanner to automatically identify web URLs and provide one-tap browser redirection with smart protocol handling.
+•
+♿ Accessibility Audit: Performed a full quality pass to fix touch target sizes, add content descriptions, and remove hardcoded strings for professional store standards.
